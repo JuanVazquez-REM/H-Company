@@ -68,9 +68,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               SimpleDialogOption(
                 onPressed: () {
-                  Navigator.pop(context, "example");
+                  Navigator.pop(context, "Rosa María Medina Rodríguez");
                 },
-                child: const Text('example'),
+                child: const Text('Rosa María Medina Rodríguez'),
               ),
             ],
             elevation: 10,
