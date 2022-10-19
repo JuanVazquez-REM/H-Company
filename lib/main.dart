@@ -72,6 +72,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: const Text('Rosa María Medina Rodríguez'),
               ),
+              SimpleDialogOption(
+                onPressed: (){
+                  Navigator.pop(context,"Angel Abraham Zapata Davila");
+                },
+                child: const Text("Angel Abraham Zapata Davila"),
+              )
             ],
             elevation: 10,
             //backgroundColor: Colors.green,
